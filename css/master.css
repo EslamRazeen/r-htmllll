@@ -1,0 +1,115 @@
+/*
+:لو عابز اعمل السهم اللي قبل الكلام
+ content: "";
+    width: 0px;
+    height: 0px;
+    background-color: transparent;                                          
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style:solid ;
+    border-color: transparent blue transparent transparent ;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#3ec0b4,#d748f9) ;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+header h2{
+    color: #fff;
+    font-size: 3em;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* form{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+} */
+section .input{
+    padding: 15px;
+    color: #d748f9;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    transition: .3s;
+}
+section .input:focus{
+    transform: scale(1.08);
+}
+section .btn{
+    background-color: #d748f9;
+    color: #fff;
+    font-size: 2.1em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0px 7px;
+    transform: translate(-45px,4px);
+    cursor: pointer;
+    transition: .3s;
+}
+section .btn:hover{
+    opacity: .9;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between ;
+    width: 500px;
+}
+footer div p{
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #fff;
+    width: 82%;
+}
+footer div button{
+    width: 40px;
+    padding: 8px;
+    border-radius: 0px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .7em;
+    font-weight: 500;
+}
+footer div button:hover{
+    opacity: .9;
+}
+footer div #yes{
+    background-color: #3ec0b4;
+    color: #fff;
+}
+footer div #del{
+    background-color: red;
+    color: #fff;
+}
